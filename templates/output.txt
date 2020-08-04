@@ -1,0 +1,11 @@
+total 32
+drwxrwxr-x 3 am.lalwani am.lalwani 4096 May 24 17:16 .
+drwxrwxr-x 6 am.lalwani am.lalwani 4096 May 16 19:36 ..
+-rw-rw-r-- 1 am.lalwani am.lalwani  163 May 23 01:04 check.py
+-rw-rw-r-- 1 am.lalwani am.lalwani    0 May 17 16:34 mongo_setup.py
+-rw-rw-r-- 1 am.lalwani am.lalwani 1222 May 24 15:21 multiprocessingpractice.py
+-rw-rw-r-- 1 am.lalwani am.lalwani  948 May 23 01:59 multithreadingpeactice.py
+-rw-rw-r-- 1 am.lalwani am.lalwani    0 May 24 17:16 output.txt
+drwxrwxr-x 2 am.lalwani am.lalwani 4096 May 23 01:26 __pycache__
+-rw-rw-r-- 1 am.lalwani am.lalwani  530 May 24 17:16 subprocessmdulepractce.py
+-rw-rw-r-- 1 am.lalwani am.lalwani 2336 May 17 14:53 test.py
