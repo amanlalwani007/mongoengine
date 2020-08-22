@@ -101,6 +101,7 @@ class RatingeithComment(Rating):
 
 class FamousQuote(me.Document):
     text=me.StringField()
+    id=me.SequenceField()
     #last_rating=me.DictField()
     translations=me.MapField(me.StringField())
     rating=me.FloatField()
