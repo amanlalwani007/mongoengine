@@ -33,7 +33,7 @@ class FamousQuote(me.Document):
     price=me.DecimalField()
     confirmed_real=me.BooleanField()
     ref=me.ObjectIdField()
-me.connect("test",host="mongodb+srv://alalwani:cr6xjy88jt@mycluster-cfkbg.mongodb.net/test?retryWrites=true&w=majority")
+me.connect("test",host="mongodb+srv://alalwani:password@mycluster-cfkbg.mongodb.net/test?retryWrites=true&w=majority")
 
 my_quote=FamousQuote()
 my_quote.text="jus for testing"
@@ -65,7 +65,7 @@ class FamousQuote(me.Document):
 
 
 
-me.connect("test",host="mongodb+srv://alalwani:cr6xjy88jt@mycluster-cfkbg.mongodb.net/test?retryWrites=true&w=majority")
+me.connect("test",host="mongodb+srv://alalwani:password@mycluster-cfkbg.mongodb.net/test?retryWrites=true&w=majority")
 my_quote=FamousQuote()
 my_quote.text='abc'
 my_quote.rating_history=[2,4,3]
@@ -83,7 +83,7 @@ dictionary  in python| object in mongodb
 
 
 
-me.connect("test2",host="mongodb+srv://alalwani:cr6xjy88jt@mycluster-cfkbg.mongodb.net/test2?retryWrites=true&w=majority")
+me.connect("test2",host="mongodb+srv://alalwani:password@mycluster-cfkbg.mongodb.net/test2?retryWrites=true&w=majority")
 
 '''
 class Rating(me.EmbeddedDocument):
